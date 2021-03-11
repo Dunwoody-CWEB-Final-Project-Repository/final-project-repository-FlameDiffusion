@@ -8,28 +8,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-    header{
+    
+    #header{
+        display: flex;
+        justify-content: flex-start;
         width: auto;
         border: 10px solid #121212;
         height: 300px;
-        fill: #121212;
+        background-color:#121212; 
         
     }
-    #hBox{
+    #logo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1em;
+        margin-left: 16px;
+        height: 75%;
+    }
+    #homeBar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        height: 20%;
+        width: 78%;
+        align-self: flex-end;
+    }
+    #search{
+        width: 100px;
+        height: 50px;
+        border: yellow solid;
+    }
+    #signin{
+        width: 100px;
+        height: 50px;
+        border: yellow solid;
+    }
+    h3{
+        color: yellow;
+        font-size: 28px;
+    }
+    #footer{
+        display: flex;
+        background-color: #121212;
+        justify-content: space-evenly;
+        border: green solid;
+        height: 30%;
         width: auto;
-        border: 10px solid #121212;
-        height: 300px;
-        background-color:black; 
+
+    }
+    h1{
+        font-size: 6em;
+        color: yellow;
     }
 </style>
 </head>
 
 <body>
     <header>
-        <div id="hBox">
-        <img src="img/Logo.jpg" alt="Logo"> width</img>
+        <div id="header">
+        <img id="logo" src="img/Logo.jpg" alt="Logo"> width</img>
+            <div id="homeBar">
+                <h3> HOME </h3>
+                <h3> ANIME LIST </h3>
+                <h3> POPULAR </h3>
+                <div id="search"> </div>
+                <div id="signin"> </div>
+    
+            
+            </div>
 
         </div>
     </header>
+    <footer>
+        <div id="footer">
+            <h1>About</h1>
+            <h1>Contact Us</h1>
+            <h1>Home</h1>
+        </div>
+    </footer>
 </body>
 </html>
