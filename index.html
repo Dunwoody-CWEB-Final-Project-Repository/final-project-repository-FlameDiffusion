@@ -52,7 +52,6 @@
         display: flex;
         background-color: #121212;
         justify-content: space-evenly;
-        border: green solid;
         height: 30%;
         width: auto;
 
@@ -65,11 +64,23 @@
         border: blueviolet solid;
         display:flex;
         justify-content: center;
+        background-color:#121212;
+    }
+    #aOfWeek{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    h2{
+        font-size: 2em;
+        color: yellow;
+        align-self: center;
+        
     }
 </style>
 </head>
 
-<body>
+<body style="padding: 46px;">
     <header>
         <div id="header">
         <img id="logo" src="img/Logo.jpg" alt="Logo"> width</img>
@@ -86,9 +97,9 @@
         </div>
     </header>
     <div id="body">
-        <div>
+        <div id="aOfWeek">
             <h2>Anime of the week</h2>
-            <img src="https://via.placeholder.com/600" alt="place"></img>
+            <img src="https://via.placeholder.com/800x400" alt="place"></img>
 
         </div>
     </div>
