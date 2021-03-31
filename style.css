@@ -1,0 +1,78 @@
+#header{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: 300px;
+    background-color:#121212; 
+    
+}
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    margin-left: 16px;
+    height: 75%;
+}
+#homeBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 20%;
+    width: 78%;
+    align-self: flex-end;
+}
+#search{
+    width: 100px;
+    height: 50px;
+    border: yellow solid;
+}
+#signin{
+    width: 100px;
+    height: 50px;
+    border: yellow solid;
+}
+h3{
+    color: yellow;
+    font-size: 28px;
+}
+#footer{
+    display: flex;
+    background-color: #121212;
+    justify-content: space-evenly;
+    height: 30%;
+    width: auto;
+
+}
+h1{
+    font-size: 6em;
+    color: yellow;
+}
+#body{
+    display:flex;
+    justify-content: center;
+    background-color:#121212;
+    flex-direction: column;
+}
+#aOfWeek{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    
+}
+h2{
+    font-size: 4em;
+    color: yellow;
+    margin-top: 141px;
+    align-self: flex-start; 
+    margin-left:30px;
+    
+}
+.imgBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
