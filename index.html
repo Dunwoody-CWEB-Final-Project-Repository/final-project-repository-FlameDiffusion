@@ -7,7 +7,21 @@
     <meta name="author" content="Donovan Hill">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <script>
+    fetch("https://animenewsnetwork.p.rapidapi.com/reports.xml?id=155&nskip=50&nlist=50", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-key": "741410205bmshea93a709b872245p1f1d9ejsnfb5a36b85398",
+            "x-rapidapi-host": "animenewsnetwork.p.rapidapi.com"
+        }
+    })
+    .then(response => {
+        console.log(response);
+    })
+    .catch(err => {
+        console.error(err);
+    });
+    </script>
 </head>
 
 <body style="padding: 46px;">
