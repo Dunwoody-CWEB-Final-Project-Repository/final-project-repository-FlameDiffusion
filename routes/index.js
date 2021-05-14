@@ -1,8 +1,6 @@
 var express = require('express');
-var router = express.Router();
-const https = require('https');
-
-
+var router = express.Router()
+const https = require('https')
 /* GET users listing. */
 router.get('/', function (req, res, next) {
 
@@ -26,14 +24,14 @@ router.get('/', function (req, res, next) {
 
       res.render('index', body);
     });
-
+    
   })
   request.on('error', (error) => {
     console.log('An error', error);
   });
   request.end()
 
-
+  res.render('index');
 
 });
 
